@@ -7,13 +7,12 @@
 * 热门文章，最新评论，友情链接
 * 通过发表文章的数量，访问量和点赞数排出活跃的用户
 
-# 使用方法 
--i https://pypi.tuna.tsinghua.edu.cn/simple
+# 使用方法
 1）安装python3.5,pip,virtualenv和virtualenvwrapper
 * 安装python3.5和pip（略）
 * 安装virtualenv和virtualenvwrapper
 ```
-pip install virtualenv virtualenvwrapper
+ virtualenv virtualenvwrapper
 vim ~/.bash_profile 
 添加以下3行：
 export WORKON_HOME=~/Envs     #虚拟环境存放目录
@@ -45,7 +44,7 @@ DjangoUeditor3  djangoblog
 (dgblog) [root@VM_85_24_centos djangoblog]# ls
 README.md  djangoblog  media             static
 apps       manage.py   requirements.txt  templates
-(dgblog) [root@VM_85_24_centos djangoblog]# pip install -r requirements.txt
+(dgblog) [root@VM_85_24_centos djangoblog]# python3 -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
 (dgblog) [root@VM_85_24_centos djangoblog]# pip list                #列表下载的python包
 Django (1.10.4)
 django-crispy-forms (1.6.1)
