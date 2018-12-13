@@ -7,7 +7,8 @@
 * 热门文章，最新评论，友情链接
 * 通过发表文章的数量，访问量和点赞数排出活跃的用户
 
-# 使用方法
+# 使用方法 
+-i https://pypi.tuna.tsinghua.edu.cn/simple
 1）安装python3.5,pip,virtualenv和virtualenvwrapper
 * 安装python3.5和pip（略）
 * 安装virtualenv和virtualenvwrapper
