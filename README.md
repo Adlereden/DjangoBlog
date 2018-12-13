@@ -28,7 +28,7 @@ rmvirtualenv dgblog            #删除该虚拟环境
 2）安装DjangoUeditor3（修改版，支持python3.5）
 * 进入虚拟环境dgblog，下载git
 ```
-git clone https://github.com/liuhuipy/DjangoUeditor3.git
+Download DjangoUeditor3.git
 (dgblog) [root@VM_85_24_centos PyProjects]# cd DjangoUeditor3/
 (dgblog) [root@VM_85_24_centos DjangoUeditor3]# ls
 DUSite  DjangoUeditor  MANIFEST  TestApp  manage.py  readme.md  setup.py
@@ -37,7 +37,7 @@ DUSite  DjangoUeditor  MANIFEST  TestApp  manage.py  readme.md  setup.py
 3）下载djangoblog项目
 ```
 cd ..
-git clone https://github.com/liuhuipy/djangoblog.git
+git clone https://djangoblog.git
 (dgblog) [root@VM_85_24_centos PyProjects]# ls
 DjangoUeditor3  djangoblog
 (dgblog) [root@VM_85_24_centos PyProjects]# cd djangoblog/
